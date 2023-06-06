@@ -1,0 +1,752 @@
+[0.000000] (-) TimerEvent: {}
+[0.002257] (manipulador) JobQueued: {'identifier': 'manipulador', 'dependencies': OrderedDict()}
+[0.003206] (navegacion) JobQueued: {'identifier': 'navegacion', 'dependencies': OrderedDict()}
+[0.003455] (percepcion) JobQueued: {'identifier': 'percepcion', 'dependencies': OrderedDict()}
+[0.003627] (proyecto_interfaces) JobQueued: {'identifier': 'proyecto_interfaces', 'dependencies': OrderedDict()}
+[0.003765] (manipulador) JobStarted: {'identifier': 'manipulador'}
+[0.093480] (navegacion) JobStarted: {'identifier': 'navegacion'}
+[0.099686] (-) TimerEvent: {}
+[0.143201] (percepcion) JobStarted: {'identifier': 'percepcion'}
+[0.193489] (proyecto_interfaces) JobStarted: {'identifier': 'proyecto_interfaces'}
+[0.202011] (-) TimerEvent: {}
+[0.306312] (-) TimerEvent: {}
+[0.407178] (-) TimerEvent: {}
+[0.507971] (-) TimerEvent: {}
+[0.608852] (-) TimerEvent: {}
+[0.709820] (-) TimerEvent: {}
+[0.810651] (-) TimerEvent: {}
+[0.911513] (-) TimerEvent: {}
+[1.012327] (-) TimerEvent: {}
+[1.113074] (-) TimerEvent: {}
+[1.213890] (-) TimerEvent: {}
+[1.314739] (-) TimerEvent: {}
+[1.415512] (-) TimerEvent: {}
+[1.516376] (-) TimerEvent: {}
+[1.617302] (-) TimerEvent: {}
+[1.718530] (-) TimerEvent: {}
+[1.819426] (-) TimerEvent: {}
+[1.920821] (-) TimerEvent: {}
+[2.021735] (-) TimerEvent: {}
+[2.122578] (-) TimerEvent: {}
+[2.223314] (-) TimerEvent: {}
+[2.324119] (-) TimerEvent: {}
+[2.424913] (-) TimerEvent: {}
+[2.525671] (-) TimerEvent: {}
+[2.626541] (-) TimerEvent: {}
+[2.727308] (-) TimerEvent: {}
+[2.828111] (-) TimerEvent: {}
+[2.928993] (-) TimerEvent: {}
+[3.032783] (-) TimerEvent: {}
+[3.133577] (-) TimerEvent: {}
+[3.234425] (-) TimerEvent: {}
+[3.335229] (-) TimerEvent: {}
+[3.436009] (-) TimerEvent: {}
+[3.536779] (-) TimerEvent: {}
+[3.637548] (-) TimerEvent: {}
+[3.738417] (-) TimerEvent: {}
+[3.839183] (-) TimerEvent: {}
+[3.939911] (-) TimerEvent: {}
+[4.040713] (-) TimerEvent: {}
+[4.141560] (-) TimerEvent: {}
+[4.242491] (-) TimerEvent: {}
+[4.343416] (-) TimerEvent: {}
+[4.427380] (proyecto_interfaces) JobProgress: {'identifier': 'proyecto_interfaces', 'progress': 'cmake'}
+[4.430898] (proyecto_interfaces) JobProgress: {'identifier': 'proyecto_interfaces', 'progress': 'build'}
+[4.433810] (proyecto_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotica/Proyecto_Final1/build/proyecto_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/robotica/Proyecto_Final1/build/proyecto_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('SSH_CLIENT', '192.168.1.102 50933 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3c6930e5-ac6a-4add-bf05-61ee4585ed35.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/robotica/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d0993273fd.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotica/Proyecto_Final1/build/proyecto_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.102 50933 192.168.1.108 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble')]), 'shell': False}
+[4.451735] (-) TimerEvent: {}
+[4.554088] (-) TimerEvent: {}
+[4.662006] (-) TimerEvent: {}
+[4.713988] (proyecto_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/robotica/Proyecto_Final1/build/proyecto_interfaces/CMakeCache.txt is different than the directory /home/robotica/Proyecto_Final/build/proyecto_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[4.762224] (-) TimerEvent: {}
+[4.865135] (-) TimerEvent: {}
+[4.972851] (-) TimerEvent: {}
+[5.078264] (-) TimerEvent: {}
+[5.184572] (-) TimerEvent: {}
+[5.202831] (proyecto_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.284717] (-) TimerEvent: {}
+[5.385673] (-) TimerEvent: {}
+[5.492245] (-) TimerEvent: {}
+[5.599630] (-) TimerEvent: {}
+[5.714401] (-) TimerEvent: {}
+[5.820720] (-) TimerEvent: {}
+[5.924511] (-) TimerEvent: {}
+[6.027712] (-) TimerEvent: {}
+[6.130618] (-) TimerEvent: {}
+[6.233507] (-) TimerEvent: {}
+[6.334890] (-) TimerEvent: {}
+[6.435984] (-) TimerEvent: {}
+[6.536949] (-) TimerEvent: {}
+[6.619448] (proyecto_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.637296] (-) TimerEvent: {}
+[6.645909] (proyecto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.677978] (proyecto_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.737484] (-) TimerEvent: {}
+[6.839165] (-) TimerEvent: {}
+[6.940841] (-) TimerEvent: {}
+[7.041966] (-) TimerEvent: {}
+[7.117327] (proyecto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.150209] (-) TimerEvent: {}
+[7.262712] (-) TimerEvent: {}
+[7.365555] (-) TimerEvent: {}
+[7.471136] (-) TimerEvent: {}
+[7.576902] (-) TimerEvent: {}
+[7.609955] (navegacion) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navegacion', 'build', '--build-base', '/home/robotica/Proyecto_Final1/build/navegacion/build', 'install', '--record', '/home/robotica/Proyecto_Final1/build/navegacion/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/Proyecto_Final1/src/navegacion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'SSH_CLIENT': '192.168.1.102 50933 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'TERM_PROGRAM_VERSION': '1.78.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3c6930e5-ac6a-4add-bf05-61ee4585ed35.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/robotica/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0993273fd.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robotica/Proyecto_Final1/build/navegacion', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 50933 192.168.1.108 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/Proyecto_Final1/build/navegacion/prefix_override:/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages:/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.673419] (percepcion) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/percepcion', 'build', '--build-base', '/home/robotica/Proyecto_Final1/build/percepcion/build', 'install', '--record', '/home/robotica/Proyecto_Final1/build/percepcion/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/Proyecto_Final1/src/percepcion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'SSH_CLIENT': '192.168.1.102 50933 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'TERM_PROGRAM_VERSION': '1.78.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3c6930e5-ac6a-4add-bf05-61ee4585ed35.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/robotica/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0993273fd.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robotica/Proyecto_Final1/build/percepcion', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 50933 192.168.1.108 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/Proyecto_Final1/build/percepcion/prefix_override:/home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages:/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.692975] (-) TimerEvent: {}
+[7.718349] (manipulador) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/manipulador', 'build', '--build-base', '/home/robotica/Proyecto_Final1/build/manipulador/build', 'install', '--record', '/home/robotica/Proyecto_Final1/build/manipulador/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/Proyecto_Final1/src/manipulador', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'SSH_CLIENT': '192.168.1.102 50933 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'TERM_PROGRAM_VERSION': '1.78.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3c6930e5-ac6a-4add-bf05-61ee4585ed35.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/robotica/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0993273fd.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robotica/Proyecto_Final1/build/manipulador', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 50933 192.168.1.108 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/Proyecto_Final1/build/manipulador/prefix_override:/home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages:/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.793232] (-) TimerEvent: {}
+[7.896357] (-) TimerEvent: {}
+[7.999723] (-) TimerEvent: {}
+[8.104923] (-) TimerEvent: {}
+[8.208462] (-) TimerEvent: {}
+[8.311906] (-) TimerEvent: {}
+[8.416310] (-) TimerEvent: {}
+[8.519540] (-) TimerEvent: {}
+[8.623018] (-) TimerEvent: {}
+[8.727172] (-) TimerEvent: {}
+[8.830398] (-) TimerEvent: {}
+[8.933508] (-) TimerEvent: {}
+[9.036804] (-) TimerEvent: {}
+[9.140168] (-) TimerEvent: {}
+[9.243298] (-) TimerEvent: {}
+[9.349187] (-) TimerEvent: {}
+[9.456020] (-) TimerEvent: {}
+[9.563251] (-) TimerEvent: {}
+[9.642621] (proyecto_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.648215] (percepcion) StdoutLine: {'line': b'running egg_info\n'}
+[9.653474] (percepcion) StdoutLine: {'line': b'writing ../../build/percepcion/percepcion.egg-info/PKG-INFO\n'}
+[9.656162] (percepcion) StdoutLine: {'line': b'writing dependency_links to ../../build/percepcion/percepcion.egg-info/dependency_links.txt\n'}
+[9.656894] (percepcion) StdoutLine: {'line': b'writing entry points to ../../build/percepcion/percepcion.egg-info/entry_points.txt\n'}
+[9.660609] (percepcion) StdoutLine: {'line': b'writing requirements to ../../build/percepcion/percepcion.egg-info/requires.txt\n'}
+[9.661501] (percepcion) StdoutLine: {'line': b'writing top-level names to ../../build/percepcion/percepcion.egg-info/top_level.txt\n'}
+[9.663426] (-) TimerEvent: {}
+[9.671494] (percepcion) StdoutLine: {'line': b"reading manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'\n"}
+[9.678104] (percepcion) StdoutLine: {'line': b"writing manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'\n"}
+[9.679166] (percepcion) StdoutLine: {'line': b'running build\n'}
+[9.679912] (percepcion) StdoutLine: {'line': b'running build_py\n'}
+[9.680828] (percepcion) StdoutLine: {'line': b'copying percepcion/__init__.py -> /home/robotica/Proyecto_Final1/build/percepcion/build/lib/percepcion\n'}
+[9.681786] (percepcion) StdoutLine: {'line': b'running install\n'}
+[9.684186] (percepcion) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.685603] (percepcion) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.686597] (percepcion) StdoutLine: {'line': b'running install_lib\n'}
+[9.689985] (percepcion) StdoutLine: {'line': b'copying /home/robotica/Proyecto_Final1/build/percepcion/build/lib/percepcion/__init__.py -> /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion\n'}
+[9.694730] (percepcion) StdoutLine: {'line': b'byte-compiling /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion/__init__.py to __init__.cpython-310.pyc\n'}
+[9.696693] (percepcion) StdoutLine: {'line': b'running install_data\n'}
+[9.699918] (percepcion) StdoutLine: {'line': b'copying resource/percepcion -> /home/robotica/Proyecto_Final1/install/percepcion/share/ament_index/resource_index/packages\n'}
+[9.701096] (percepcion) StdoutLine: {'line': b'copying package.xml -> /home/robotica/Proyecto_Final1/install/percepcion/share/percepcion\n'}
+[9.703268] (percepcion) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.713738] (percepcion) StdoutLine: {'line': b"removing '/home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.715915] (manipulador) StdoutLine: {'line': b'running egg_info\n'}
+[9.717297] (percepcion) StdoutLine: {'line': b'Copying ../../build/percepcion/percepcion.egg-info to /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion-0.0.0-py3.10.egg-info\n'}
+[9.720904] (manipulador) StdoutLine: {'line': b'writing ../../build/manipulador/manipulador.egg-info/PKG-INFO\n'}
+[9.722627] (manipulador) StdoutLine: {'line': b'writing dependency_links to ../../build/manipulador/manipulador.egg-info/dependency_links.txt\n'}
+[9.724265] (manipulador) StdoutLine: {'line': b'writing entry points to ../../build/manipulador/manipulador.egg-info/entry_points.txt\n'}
+[9.725706] (manipulador) StdoutLine: {'line': b'writing requirements to ../../build/manipulador/manipulador.egg-info/requires.txt\n'}
+[9.726875] (manipulador) StdoutLine: {'line': b'writing top-level names to ../../build/manipulador/manipulador.egg-info/top_level.txt\n'}
+[9.729400] (percepcion) StdoutLine: {'line': b'running install_scripts\n'}
+[9.738545] (manipulador) StdoutLine: {'line': b"reading manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'\n"}
+[9.740060] (navegacion) StdoutLine: {'line': b'running egg_info\n'}
+[9.745730] (navegacion) StdoutLine: {'line': b'writing ../../build/navegacion/navegacion.egg-info/PKG-INFO\n'}
+[9.746861] (manipulador) StdoutLine: {'line': b"writing manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'\n"}
+[9.750042] (navegacion) StdoutLine: {'line': b'writing dependency_links to ../../build/navegacion/navegacion.egg-info/dependency_links.txt\n'}
+[9.751010] (manipulador) StdoutLine: {'line': b'running build\n'}
+[9.751728] (manipulador) StdoutLine: {'line': b'running build_py\n'}
+[9.752588] (manipulador) StdoutLine: {'line': b'copying manipulador/manipulador_server.py -> /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador\n'}
+[9.754635] (manipulador) StdoutLine: {'line': b'copying manipulador/__init__.py -> /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador\n'}
+[9.756345] (navegacion) StdoutLine: {'line': b'writing entry points to ../../build/navegacion/navegacion.egg-info/entry_points.txt\n'}
+[9.759988] (navegacion) StdoutLine: {'line': b'writing requirements to ../../build/navegacion/navegacion.egg-info/requires.txt\n'}
+[9.761660] (manipulador) StdoutLine: {'line': b'running install\n'}
+[9.763649] (navegacion) StdoutLine: {'line': b'writing top-level names to ../../build/navegacion/navegacion.egg-info/top_level.txt\n'}
+[9.764658] (-) TimerEvent: {}
+[9.771157] (manipulador) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.772033] (manipulador) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.772536] (manipulador) StdoutLine: {'line': b'running install_lib\n'}
+[9.774043] (manipulador) StdoutLine: {'line': b'copying /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador/manipulador_server.py -> /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador\n'}
+[9.774918] (manipulador) StdoutLine: {'line': b'copying /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador/__init__.py -> /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador\n'}
+[9.777431] (manipulador) StdoutLine: {'line': b'byte-compiling /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador/manipulador_server.py to manipulador_server.cpython-310.pyc\n'}
+[9.793608] (manipulador) StdoutLine: {'line': b'byte-compiling /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador/__init__.py to __init__.cpython-310.pyc\n'}
+[9.795549] (navegacion) StdoutLine: {'line': b"reading manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'\n"}
+[9.797551] (manipulador) StdoutLine: {'line': b'running install_data\n'}
+[9.804223] (manipulador) StdoutLine: {'line': b'copying resource/manipulador -> /home/robotica/Proyecto_Final1/install/manipulador/share/ament_index/resource_index/packages\n'}
+[9.805418] (manipulador) StdoutLine: {'line': b'copying package.xml -> /home/robotica/Proyecto_Final1/install/manipulador/share/manipulador\n'}
+[9.806607] (navegacion) StdoutLine: {'line': b"writing manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'\n"}
+[9.808864] (navegacion) StdoutLine: {'line': b'running build\n'}
+[9.810433] (navegacion) StdoutLine: {'line': b'running build_py\n'}
+[9.812838] (navegacion) StdoutLine: {'line': b'copying navegacion/__init__.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion\n'}
+[9.815684] (navegacion) StdoutLine: {'line': b'copying navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion\n'}
+[9.818388] (manipulador) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.820732] (navegacion) StdoutLine: {'line': b'running install\n'}
+[9.831114] (manipulador) StdoutLine: {'line': b"removing '/home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.832678] (navegacion) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.833736] (navegacion) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.835822] (navegacion) StdoutLine: {'line': b'running install_lib\n'}
+[9.838876] (manipulador) StdoutLine: {'line': b'Copying ../../build/manipulador/manipulador.egg-info to /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador-0.0.0-py3.10.egg-info\n'}
+[9.854393] (navegacion) StdoutLine: {'line': b'copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/__init__.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion\n'}
+[9.855108] (navegacion) StdoutLine: {'line': b'copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion\n'}
+[9.859867] (navegacion) StdoutLine: {'line': b'byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/__init__.py to __init__.cpython-310.pyc\n'}
+[9.860579] (navegacion) StdoutLine: {'line': b'byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py to navegacion_server.cpython-310.pyc\n'}
+[9.864891] (-) TimerEvent: {}
+[9.871304] (navegacion) StderrLine: {'line': b'  File "/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py", line 22\n'}
+[9.876410] (navegacion) StderrLine: {'line': b'    global pos_ini\n'}
+[9.877317] (navegacion) StderrLine: {'line': b'    ^^^^^^^^^^^^^^\n'}
+[9.878332] (navegacion) StderrLine: {'line': b"SyntaxError: name 'pos_ini' is assigned to before global declaration\n"}
+[9.878909] (navegacion) StderrLine: {'line': b'\n'}
+[9.879514] (navegacion) StdoutLine: {'line': b'running install_data\n'}
+[9.880169] (navegacion) StdoutLine: {'line': b'copying resource/navegacion -> /home/robotica/Proyecto_Final1/install/navegacion/share/ament_index/resource_index/packages\n'}
+[9.880854] (navegacion) StdoutLine: {'line': b'copying package.xml -> /home/robotica/Proyecto_Final1/install/navegacion/share/navegacion\n'}
+[9.881571] (navegacion) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.882653] (manipulador) StdoutLine: {'line': b'running install_scripts\n'}
+[9.901099] (navegacion) StdoutLine: {'line': b"removing '/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.910259] (navegacion) StdoutLine: {'line': b'Copying ../../build/navegacion/navegacion.egg-info to /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info\n'}
+[9.947254] (percepcion) StdoutLine: {'line': b'Installing percepcion_server script to /home/robotica/Proyecto_Final1/install/percepcion/lib/percepcion\n'}
+[9.952812] (navegacion) StdoutLine: {'line': b'running install_scripts\n'}
+[9.957590] (percepcion) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/Proyecto_Final1/build/percepcion/install.log'\n"}
+[9.974041] (-) TimerEvent: {}
+[10.034894] (manipulador) StdoutLine: {'line': b'Installing manipulador_server script to /home/robotica/Proyecto_Final1/install/manipulador/lib/manipulador\n'}
+[10.038863] (manipulador) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/Proyecto_Final1/build/manipulador/install.log'\n"}
+[10.074364] (-) TimerEvent: {}
+[10.186229] (-) TimerEvent: {}
+[10.260397] (navegacion) StdoutLine: {'line': b'Installing navegacion_server script to /home/robotica/Proyecto_Final1/install/navegacion/lib/navegacion\n'}
+[10.268030] (percepcion) CommandEnded: {'returncode': 0}
+[10.276130] (navegacion) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/Proyecto_Final1/build/navegacion/install.log'\n"}
+[10.291344] (-) TimerEvent: {}
+[10.393389] (-) TimerEvent: {}
+[10.499065] (-) TimerEvent: {}
+[10.544103] (percepcion) JobEnded: {'identifier': 'percepcion', 'rc': 0}
+[10.555566] (manipulador) CommandEnded: {'returncode': 0}
+[10.599608] (-) TimerEvent: {}
+[10.618561] (manipulador) JobEnded: {'identifier': 'manipulador', 'rc': 0}
+[10.634261] (navegacion) CommandEnded: {'returncode': 0}
+[10.681499] (navegacion) JobEnded: {'identifier': 'navegacion', 'rc': 0}
+[10.699891] (-) TimerEvent: {}
+[10.800707] (-) TimerEvent: {}
+[10.901623] (-) TimerEvent: {}
+[11.002565] (-) TimerEvent: {}
+[11.101734] (proyecto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.102673] (-) TimerEvent: {}
+[11.203317] (-) TimerEvent: {}
+[11.304087] (-) TimerEvent: {}
+[11.405073] (-) TimerEvent: {}
+[11.506282] (-) TimerEvent: {}
+[11.607229] (-) TimerEvent: {}
+[11.708438] (-) TimerEvent: {}
+[11.809170] (-) TimerEvent: {}
+[11.910001] (-) TimerEvent: {}
+[12.010748] (-) TimerEvent: {}
+[12.111501] (-) TimerEvent: {}
+[12.212332] (-) TimerEvent: {}
+[12.313110] (-) TimerEvent: {}
+[12.364806] (proyecto_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.413299] (-) TimerEvent: {}
+[12.495135] (proyecto_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.513574] (-) TimerEvent: {}
+[12.614668] (-) TimerEvent: {}
+[12.634023] (proyecto_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.635095] (proyecto_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.635744] (proyecto_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.696374] (proyecto_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.714843] (-) TimerEvent: {}
+[12.808332] (proyecto_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.815039] (-) TimerEvent: {}
+[12.832372] (proyecto_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.844723] (proyecto_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.871451] (proyecto_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.915268] (-) TimerEvent: {}
+[13.016264] (-) TimerEvent: {}
+[13.116996] (-) TimerEvent: {}
+[13.217791] (-) TimerEvent: {}
+[13.289669] (proyecto_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.310926] (proyecto_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robotica/Proyecto_Final/build/proyecto_interfaces\n'}
+[13.318081] (-) TimerEvent: {}
+[13.419000] (-) TimerEvent: {}
+[13.509428] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_generator_c\x1b[0m\n'}
+[13.519199] (-) TimerEvent: {}
+[13.552078] (proyecto_interfaces) StdoutLine: {'line': b'[  1%] Built target proyecto_interfaces__cpp\n'}
+[13.573264] (proyecto_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/msg/detail/banner__functions.c.o\x1b[0m\n'}
+[13.578989] (proyecto_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_navigation_test__functions.c.o\x1b[0m\n'}
+[13.611462] (proyecto_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_perception_test__functions.c.o\x1b[0m\n'}
+[13.619386] (-) TimerEvent: {}
+[13.662171] (proyecto_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_proyecto_interfaces\n'}
+[13.704396] (proyecto_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/proyecto_interfaces/srv/detail/start_manipulation_test__functions.c.o\x1b[0m\n'}
+[13.719577] (-) TimerEvent: {}
+[13.821160] (-) TimerEvent: {}
+[13.922163] (-) TimerEvent: {}
+[14.024802] (-) TimerEvent: {}
+[14.125816] (-) TimerEvent: {}
+[14.226930] (-) TimerEvent: {}
+[14.329305] (-) TimerEvent: {}
+[14.431123] (-) TimerEvent: {}
+[14.534197] (-) TimerEvent: {}
+[14.635039] (-) TimerEvent: {}
+[14.688587] (proyecto_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking C shared library libproyecto_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.714991] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.742584] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.743560] (-) TimerEvent: {}
+[14.751309] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.802409] (proyecto_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/msg/banner__type_support.cpp.o\x1b[0m\n'}
+[14.843777] (-) TimerEvent: {}
+[14.855115] (proyecto_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/msg/detail/banner__type_support.cpp.o\x1b[0m\n'}
+[14.868823] (proyecto_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/msg/detail/dds_fastrtps/banner__type_support.cpp.o\x1b[0m\n'}
+[14.943983] (-) TimerEvent: {}
+[15.047004] (-) TimerEvent: {}
+[15.095507] (proyecto_interfaces) StdoutLine: {'line': b'[ 18%] Built target proyecto_interfaces__rosidl_generator_c\n'}
+[15.135540] (proyecto_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[15.147164] (-) TimerEvent: {}
+[15.248268] (-) TimerEvent: {}
+[15.350537] (-) TimerEvent: {}
+[15.451337] (-) TimerEvent: {}
+[15.552488] (-) TimerEvent: {}
+[15.653310] (-) TimerEvent: {}
+[15.754174] (-) TimerEvent: {}
+[15.855133] (-) TimerEvent: {}
+[15.956283] (-) TimerEvent: {}
+[16.058388] (-) TimerEvent: {}
+[16.162339] (-) TimerEvent: {}
+[16.263848] (-) TimerEvent: {}
+[16.364663] (-) TimerEvent: {}
+[16.468269] (-) TimerEvent: {}
+[16.574114] (-) TimerEvent: {}
+[16.681423] (-) TimerEvent: {}
+[16.784033] (-) TimerEvent: {}
+[16.886664] (-) TimerEvent: {}
+[16.995762] (-) TimerEvent: {}
+[17.097094] (-) TimerEvent: {}
+[17.200511] (-) TimerEvent: {}
+[17.303035] (-) TimerEvent: {}
+[17.410804] (-) TimerEvent: {}
+[17.534441] (-) TimerEvent: {}
+[17.643530] (-) TimerEvent: {}
+[17.750101] (-) TimerEvent: {}
+[17.859089] (-) TimerEvent: {}
+[17.966396] (-) TimerEvent: {}
+[18.067681] (-) TimerEvent: {}
+[18.168781] (-) TimerEvent: {}
+[18.270528] (-) TimerEvent: {}
+[18.372161] (-) TimerEvent: {}
+[18.475818] (-) TimerEvent: {}
+[18.517657] (proyecto_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[18.576542] (-) TimerEvent: {}
+[18.681083] (-) TimerEvent: {}
+[18.787224] (-) TimerEvent: {}
+[18.893146] (-) TimerEvent: {}
+[18.999382] (-) TimerEvent: {}
+[19.103924] (-) TimerEvent: {}
+[19.209363] (-) TimerEvent: {}
+[19.242304] (proyecto_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[19.243264] (proyecto_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[19.274327] (proyecto_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[19.309612] (-) TimerEvent: {}
+[19.410940] (-) TimerEvent: {}
+[19.511832] (-) TimerEvent: {}
+[19.612812] (-) TimerEvent: {}
+[19.713791] (-) TimerEvent: {}
+[19.815011] (-) TimerEvent: {}
+[19.916492] (-) TimerEvent: {}
+[20.026090] (-) TimerEvent: {}
+[20.138143] (-) TimerEvent: {}
+[20.250062] (-) TimerEvent: {}
+[20.358065] (-) TimerEvent: {}
+[20.463382] (-) TimerEvent: {}
+[20.574361] (-) TimerEvent: {}
+[20.675419] (-) TimerEvent: {}
+[20.746638] (proyecto_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[20.775678] (-) TimerEvent: {}
+[20.878114] (-) TimerEvent: {}
+[20.979953] (-) TimerEvent: {}
+[21.086106] (-) TimerEvent: {}
+[21.194123] (-) TimerEvent: {}
+[21.302272] (-) TimerEvent: {}
+[21.410090] (-) TimerEvent: {}
+[21.511233] (-) TimerEvent: {}
+[21.612446] (-) TimerEvent: {}
+[21.713691] (-) TimerEvent: {}
+[21.815036] (-) TimerEvent: {}
+[21.916434] (-) TimerEvent: {}
+[22.017609] (-) TimerEvent: {}
+[22.118935] (-) TimerEvent: {}
+[22.220183] (-) TimerEvent: {}
+[22.321444] (-) TimerEvent: {}
+[22.364752] (proyecto_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proyecto_interfaces/srv/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[22.421707] (-) TimerEvent: {}
+[22.446754] (proyecto_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[22.522007] (-) TimerEvent: {}
+[22.625104] (-) TimerEvent: {}
+[22.728218] (-) TimerEvent: {}
+[22.754183] (proyecto_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proyecto_interfaces/srv/detail/dds_fastrtps/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[22.828444] (-) TimerEvent: {}
+[22.931969] (-) TimerEvent: {}
+[23.035157] (-) TimerEvent: {}
+[23.142319] (-) TimerEvent: {}
+[23.249814] (-) TimerEvent: {}
+[23.357659] (-) TimerEvent: {}
+[23.464404] (-) TimerEvent: {}
+[23.571504] (-) TimerEvent: {}
+[23.681056] (-) TimerEvent: {}
+[23.789709] (-) TimerEvent: {}
+[23.891512] (-) TimerEvent: {}
+[24.001077] (-) TimerEvent: {}
+[24.108777] (-) TimerEvent: {}
+[24.216554] (-) TimerEvent: {}
+[24.323598] (-) TimerEvent: {}
+[24.338483] (proyecto_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[24.423901] (-) TimerEvent: {}
+[24.533932] (-) TimerEvent: {}
+[24.642964] (-) TimerEvent: {}
+[24.707456] (proyecto_interfaces) StdoutLine: {'line': b'[ 38%] Built target proyecto_interfaces__rosidl_typesupport_cpp\n'}
+[24.743196] (-) TimerEvent: {}
+[24.816979] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[24.843670] (-) TimerEvent: {}
+[24.946382] (-) TimerEvent: {}
+[25.028524] (proyecto_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/msg/detail/banner__type_support_c.cpp.o\x1b[0m\n'}
+[25.046727] (-) TimerEvent: {}
+[25.150619] (-) TimerEvent: {}
+[25.156248] (proyecto_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.250871] (-) TimerEvent: {}
+[25.354862] (-) TimerEvent: {}
+[25.462421] (-) TimerEvent: {}
+[25.551097] (proyecto_interfaces) StdoutLine: {'line': b'[ 43%] Built target proyecto_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[25.563036] (-) TimerEvent: {}
+[25.667486] (-) TimerEvent: {}
+[25.704627] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[25.743021] (proyecto_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[25.767776] (-) TimerEvent: {}
+[25.816773] (proyecto_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/msg/detail/banner__type_support.c.o\x1b[0m\n'}
+[25.868027] (-) TimerEvent: {}
+[25.969590] (-) TimerEvent: {}
+[26.071372] (-) TimerEvent: {}
+[26.118117] (proyecto_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_navigation_test__type_support.c.o\x1b[0m\n'}
+[26.171635] (-) TimerEvent: {}
+[26.272915] (proyecto_interfaces) StdoutLine: {'line': b'[ 50%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[26.276764] (-) TimerEvent: {}
+[26.355103] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[26.379879] (-) TimerEvent: {}
+[26.428988] (proyecto_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_perception_test__type_support.c.o\x1b[0m\n'}
+[26.444006] (proyecto_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/msg/banner__type_support.cpp.o\x1b[0m\n'}
+[26.480213] (-) TimerEvent: {}
+[26.583774] (-) TimerEvent: {}
+[26.677630] (proyecto_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_navigation_test__type_support.cpp.o\x1b[0m\n'}
+[26.683904] (-) TimerEvent: {}
+[26.707188] (proyecto_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.c.o\x1b[0m\n'}
+[26.784178] (-) TimerEvent: {}
+[26.887751] (-) TimerEvent: {}
+[26.919028] (proyecto_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_perception_test__type_support.cpp.o\x1b[0m\n'}
+[26.982516] (proyecto_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libproyecto_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[26.987896] (-) TimerEvent: {}
+[27.091191] (-) TimerEvent: {}
+[27.156228] (proyecto_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/proyecto_interfaces/srv/start_manipulation_test__type_support.cpp.o\x1b[0m\n'}
+[27.187137] (proyecto_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[27.194465] (-) TimerEvent: {}
+[27.199300] (proyecto_interfaces) StdoutLine: {'line': b'[ 65%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c\n'}
+[27.205088] (proyecto_interfaces) StdoutLine: {'line': b'writing proyecto_interfaces.egg-info/PKG-INFO\n'}
+[27.209056] (proyecto_interfaces) StdoutLine: {'line': b'writing dependency_links to proyecto_interfaces.egg-info/dependency_links.txt\n'}
+[27.213768] (proyecto_interfaces) StdoutLine: {'line': b'writing top-level names to proyecto_interfaces.egg-info/top_level.txt\n'}
+[27.228741] (proyecto_interfaces) StdoutLine: {'line': b"reading manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'\n"}
+[27.236216] (proyecto_interfaces) StdoutLine: {'line': b"writing manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'\n"}
+[27.243852] (proyecto_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_navigation_test__type_support_c.cpp.o\x1b[0m\n'}
+[27.294842] (-) TimerEvent: {}
+[27.397574] (-) TimerEvent: {}
+[27.422082] (proyecto_interfaces) StdoutLine: {'line': b'[ 67%] Built target ament_cmake_python_build_proyecto_interfaces_egg\n'}
+[27.447169] (proyecto_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[27.471229] (proyecto_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_perception_test__type_support_c.cpp.o\x1b[0m\n'}
+[27.498166] (-) TimerEvent: {}
+[27.603609] (-) TimerEvent: {}
+[27.664942] (proyecto_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proyecto_interfaces/srv/detail/start_manipulation_test__type_support_c.cpp.o\x1b[0m\n'}
+[27.684785] (proyecto_interfaces) StdoutLine: {'line': b'[ 74%] Built target proyecto_interfaces__rosidl_typesupport_c\n'}
+[27.703855] (-) TimerEvent: {}
+[27.809011] (-) TimerEvent: {}
+[27.914890] (-) TimerEvent: {}
+[28.020018] (-) TimerEvent: {}
+[28.131051] (-) TimerEvent: {}
+[28.236566] (-) TimerEvent: {}
+[28.344438] (-) TimerEvent: {}
+[28.445645] (-) TimerEvent: {}
+[28.552323] (-) TimerEvent: {}
+[28.660996] (-) TimerEvent: {}
+[28.762753] (-) TimerEvent: {}
+[28.869440] (-) TimerEvent: {}
+[28.975625] (-) TimerEvent: {}
+[29.083460] (-) TimerEvent: {}
+[29.189921] (-) TimerEvent: {}
+[29.306389] (-) TimerEvent: {}
+[29.414742] (-) TimerEvent: {}
+[29.523798] (-) TimerEvent: {}
+[29.630367] (-) TimerEvent: {}
+[29.732649] (-) TimerEvent: {}
+[29.833163] (proyecto_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[29.834007] (-) TimerEvent: {}
+[29.934889] (-) TimerEvent: {}
+[30.035921] (-) TimerEvent: {}
+[30.136923] (-) TimerEvent: {}
+[30.175284] (proyecto_interfaces) StdoutLine: {'line': b'[ 78%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[30.237167] (-) TimerEvent: {}
+[30.274560] (proyecto_interfaces) StdoutLine: {'line': b'[ 78%] Built target proyecto_interfaces\n'}
+[30.337343] (-) TimerEvent: {}
+[30.412359] (proyecto_interfaces) StdoutLine: {'line': b'[ 80%] Built target proyecto_interfaces__py\n'}
+[30.437568] (-) TimerEvent: {}
+[30.471466] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_generator_py\x1b[0m\n'}
+[30.537776] (-) TimerEvent: {}
+[30.588843] (proyecto_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/msg/_banner_s.c.o\x1b[0m\n'}
+[30.596739] (proyecto_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_navigation_test_s.c.o\x1b[0m\n'}
+[30.598043] (proyecto_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_perception_test_s.c.o\x1b[0m\n'}
+[30.629755] (proyecto_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/proyecto_interfaces/srv/_start_manipulation_test_s.c.o\x1b[0m\n'}
+[30.638173] (-) TimerEvent: {}
+[30.742691] (-) TimerEvent: {}
+[30.843700] (-) TimerEvent: {}
+[30.945203] (-) TimerEvent: {}
+[31.046915] (-) TimerEvent: {}
+[31.147827] (-) TimerEvent: {}
+[31.248891] (-) TimerEvent: {}
+[31.353981] (-) TimerEvent: {}
+[31.454935] (-) TimerEvent: {}
+[31.556042] (-) TimerEvent: {}
+[31.576645] (proyecto_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/libproyecto_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[31.656303] (-) TimerEvent: {}
+[31.757273] (-) TimerEvent: {}
+[31.804508] (proyecto_interfaces) StdoutLine: {'line': b'[ 89%] Built target proyecto_interfaces__rosidl_generator_py\n'}
+[31.857525] (-) TimerEvent: {}
+[31.864641] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[31.865630] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[31.871039] (proyecto_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target proyecto_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[31.931724] (proyecto_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[31.934918] (proyecto_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[31.943131] (proyecto_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/proyecto_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[31.957759] (-) TimerEvent: {}
+[32.060140] (-) TimerEvent: {}
+[32.162158] (-) TimerEvent: {}
+[32.264743] (-) TimerEvent: {}
+[32.371740] (-) TimerEvent: {}
+[32.476685] (-) TimerEvent: {}
+[32.582955] (-) TimerEvent: {}
+[32.614857] (proyecto_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.635643] (proyecto_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.657474] (proyecto_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.683177] (-) TimerEvent: {}
+[32.787879] (-) TimerEvent: {}
+[32.836369] (proyecto_interfaces) StdoutLine: {'line': b'[100%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[32.844696] (proyecto_interfaces) StdoutLine: {'line': b'[100%] Built target proyecto_interfaces__rosidl_typesupport_c__pyext\n'}
+[32.885082] (proyecto_interfaces) StdoutLine: {'line': b'[100%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[32.888083] (-) TimerEvent: {}
+[32.937269] (proyecto_interfaces) CommandEnded: {'returncode': 0}
+[32.988277] (-) TimerEvent: {}
+[33.089009] (-) TimerEvent: {}
+[33.189783] (-) TimerEvent: {}
+[33.290638] (-) TimerEvent: {}
+[33.392030] (-) TimerEvent: {}
+[33.493596] (-) TimerEvent: {}
+[33.595208] (-) TimerEvent: {}
+[33.696086] (-) TimerEvent: {}
+[33.702252] (proyecto_interfaces) JobProgress: {'identifier': 'proyecto_interfaces', 'progress': 'install'}
+[33.740568] (proyecto_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotica/Proyecto_Final1/build/proyecto_interfaces'], 'cwd': '/home/robotica/Proyecto_Final1/build/proyecto_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotica'), ('SSH_CLIENT', '192.168.1.102 50933 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotica'), ('OLDPWD', '/home/robotica'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3c6930e5-ac6a-4add-bf05-61ee4585ed35.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotica/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/robotica/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d0993273fd.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotica/Proyecto_Final1/build/proyecto_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.102 50933 192.168.1.108 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotica/Taller_3/ros2_taller3/install/mi_robot_manipulador_3:/opt/ros/humble')]), 'shell': False}
+[33.785690] (proyecto_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.791516] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/ament_index/resource_index/rosidl_interfaces/proyecto_interfaces\n'}
+[33.792462] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.793464] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.794526] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.h\n'}
+[33.795541] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.796211] (-) TimerEvent: {}
+[33.797154] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.c\n'}
+[33.798645] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.h\n'}
+[33.800048] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.h\n'}
+[33.801901] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.c\n'}
+[33.802510] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.h\n'}
+[33.803040] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.h\n'}
+[33.803704] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.h\n'}
+[33.804317] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.h\n'}
+[33.804840] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.h\n'}
+[33.805415] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.c\n'}
+[33.805937] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.h\n'}
+[33.806559] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.h\n'}
+[33.807093] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.h\n'}
+[33.807578] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.h\n'}
+[33.808076] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.808457] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.808806] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.h\n'}
+[33.809265] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.h\n'}
+[33.809727] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.c\n'}
+[33.810172] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.h\n'}
+[33.810608] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.810985] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.h\n'}
+[33.811396] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.sh\n'}
+[33.811801] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.dsv\n'}
+[33.815146] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_c.so\n'}
+[33.816588] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.817970] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.818566] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.819128] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h\n'}
+[33.819617] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h\n'}
+[33.820045] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h\n'}
+[33.820515] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.820956] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.821437] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_c.h\n'}
+[33.822013] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.825691] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[33.827248] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.828217] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.829516] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.830259] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h\n'}
+[33.830774] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.c\n'}
+[33.831220] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h\n'}
+[33.831665] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.c\n'}
+[33.832091] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h\n'}
+[33.832531] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.c\n'}
+[33.832994] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.833444] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.834040] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.c\n'}
+[33.834625] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_c.h\n'}
+[33.835123] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.840380] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[33.843446] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_c.so\n'}
+[33.844766] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.845880] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.847218] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.848782] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__traits.hpp\n'}
+[33.849657] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.hpp\n'}
+[33.853201] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__builder.hpp\n'}
+[33.853755] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__traits.hpp\n'}
+[33.854365] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__builder.hpp\n'}
+[33.854885] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.hpp\n'}
+[33.855481] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.hpp\n'}
+[33.856020] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__traits.hpp\n'}
+[33.856409] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__builder.hpp\n'}
+[33.856763] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.hpp\n'}
+[33.857250] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.hpp\n'}
+[33.857648] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.hpp\n'}
+[33.858081] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.858614] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.hpp\n'}
+[33.859099] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.859553] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.hpp\n'}
+[33.860008] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__traits.hpp\n'}
+[33.860458] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__builder.hpp\n'}
+[33.860905] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.861381] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.861919] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.862340] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/dds_fastrtps\n'}
+[33.862865] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.863415] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.863839] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.864197] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.864524] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.864900] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/dds_fastrtps\n'}
+[33.865303] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.865685] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.867434] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.868959] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces\n'}
+[33.870088] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv\n'}
+[33.871111] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail\n'}
+[33.871747] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.cpp\n'}
+[33.872212] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.cpp\n'}
+[33.872674] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.873160] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.cpp\n'}
+[33.873597] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.874271] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.874708] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg\n'}
+[33.875265] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail\n'}
+[33.876474] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.877014] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.cpp\n'}
+[33.880702] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[33.885479] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_cpp.so\n'}
+[33.887013] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.sh\n'}
+[33.887729] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.dsv\n'}
+[33.889896] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info\n'}
+[33.890559] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[33.893002] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[33.894527] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[33.896060] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[33.896541] (-) TimerEvent: {}
+[33.898452] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces\n'}
+[33.900497] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.901081] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.901475] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/__init__.py\n'}
+[33.902045] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.902811] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/libproyecto_interfaces__rosidl_generator_py.so\n'}
+[33.903301] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv\n'}
+[33.903925] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test.py\n'}
+[33.904400] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test_s.c\n'}
+[33.904900] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/__init__.py\n'}
+[33.905355] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test_s.c\n'}
+[33.905799] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test.py\n'}
+[33.906372] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test.py\n'}
+[33.906901] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test_s.c\n'}
+[33.907414] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.907792] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg\n'}
+[33.908253] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner_s.c\n'}
+[33.908595] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner.py\n'}
+[33.908913] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/__init__.py\n'}
+[33.912357] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.913027] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[33.996766] (-) TimerEvent: {}
+[34.097631] (-) TimerEvent: {}
+[34.117969] (proyecto_interfaces) StdoutLine: {'line': b"Listing '/home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces'...\n"}
+[34.119740] (proyecto_interfaces) StdoutLine: {'line': b"Compiling '/home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/__init__.py'...\n"}
+[34.121104] (proyecto_interfaces) StdoutLine: {'line': b"Listing '/home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg'...\n"}
+[34.122520] (proyecto_interfaces) StdoutLine: {'line': b"Listing '/home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv'...\n"}
+[34.149033] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.154545] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.160558] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.166231] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_py.so\n'}
+[34.167990] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.idl\n'}
+[34.168672] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.idl\n'}
+[34.169301] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.idl\n'}
+[34.169894] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.idl\n'}
+[34.170537] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.msg\n'}
+[34.171113] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.srv\n'}
+[34.171718] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Request.msg\n'}
+[34.172296] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Response.msg\n'}
+[34.172921] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.srv\n'}
+[34.173391] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Request.msg\n'}
+[34.174153] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Response.msg\n'}
+[34.174657] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.srv\n'}
+[34.175220] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Request.msg\n'}
+[34.175770] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Response.msg\n'}
+[34.176315] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/ament_index/resource_index/package_run_dependencies/proyecto_interfaces\n'}
+[34.176865] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/ament_index/resource_index/parent_prefix_path/proyecto_interfaces\n'}
+[34.177395] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.sh\n'}
+[34.177974] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.dsv\n'}
+[34.180224] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.sh\n'}
+[34.181061] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.dsv\n'}
+[34.182982] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.bash\n'}
+[34.183636] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.sh\n'}
+[34.184235] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.zsh\n'}
+[34.184829] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.dsv\n'}
+[34.187555] (proyecto_interfaces) StdoutLine: {'line': b'-- Installing: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/package.dsv\n'}
+[34.190000] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/ament_index/resource_index/packages/proyecto_interfaces\n'}
+[34.191907] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport.cmake\n'}
+[34.192644] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.194391] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[34.195091] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[34.196880] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.197532] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.198071] (-) TimerEvent: {}
+[34.199660] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[34.200400] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.202354] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cppExport.cmake\n'}
+[34.204396] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[34.205058] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[34.206973] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.207606] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.209416] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[34.210154] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.211943] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport.cmake\n'}
+[34.212575] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[34.213165] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[34.213782] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.216389] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.217100] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.217714] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.218371] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.218904] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.219446] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig.cmake\n'}
+[34.219929] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig-version.cmake\n'}
+[34.220523] (proyecto_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robotica/Proyecto_Final/install/proyecto_interfaces/share/proyecto_interfaces/package.xml\n'}
+[34.231002] (proyecto_interfaces) CommandEnded: {'returncode': 0}
+[34.302369] (-) TimerEvent: {}
+[34.403363] (-) TimerEvent: {}
+[34.505569] (-) TimerEvent: {}
+[34.606281] (-) TimerEvent: {}
+[34.707005] (-) TimerEvent: {}
+[34.807909] (-) TimerEvent: {}
+[34.909114] (-) TimerEvent: {}
+[35.010863] (-) TimerEvent: {}
+[35.111955] (-) TimerEvent: {}
+[35.134979] (proyecto_interfaces) JobEnded: {'identifier': 'proyecto_interfaces', 'rc': 0}
+[35.140028] (-) EventReactorShutdown: {}

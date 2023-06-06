@@ -1,0 +1,36 @@
+[7.614s] Invoking command in '/home/robotica/Proyecto_Final/src/manipulador': PYTHONPATH=/home/robotica/Proyecto_Final/build/manipulador/prefix_override:/home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulador build --build-base /home/robotica/Proyecto_Final/build/manipulador/build install --record /home/robotica/Proyecto_Final/build/manipulador/install.log --single-version-externally-managed
+[10.624s] running egg_info
+[10.642s] creating ../../build/manipulador/manipulador.egg-info
+[10.642s] writing ../../build/manipulador/manipulador.egg-info/PKG-INFO
+[10.643s] writing dependency_links to ../../build/manipulador/manipulador.egg-info/dependency_links.txt
+[10.649s] writing entry points to ../../build/manipulador/manipulador.egg-info/entry_points.txt
+[10.650s] writing requirements to ../../build/manipulador/manipulador.egg-info/requires.txt
+[10.651s] writing top-level names to ../../build/manipulador/manipulador.egg-info/top_level.txt
+[10.651s] writing manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'
+[10.688s] reading manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'
+[10.698s] writing manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'
+[10.698s] running build
+[10.699s] running build_py
+[10.700s] creating /home/robotica/Proyecto_Final/build/manipulador/build
+[10.700s] creating /home/robotica/Proyecto_Final/build/manipulador/build/lib
+[10.701s] creating /home/robotica/Proyecto_Final/build/manipulador/build/lib/manipulador
+[10.702s] copying manipulador/__init__.py -> /home/robotica/Proyecto_Final/build/manipulador/build/lib/manipulador
+[10.703s] running install
+[10.703s] running install_lib
+[10.714s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.714s]   warnings.warn(
+[10.715s] creating /home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages/manipulador
+[10.715s] copying /home/robotica/Proyecto_Final/build/manipulador/build/lib/manipulador/__init__.py -> /home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages/manipulador
+[10.716s] byte-compiling /home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages/manipulador/__init__.py to __init__.cpython-310.pyc
+[10.717s] running install_data
+[10.722s] creating /home/robotica/Proyecto_Final/install/manipulador/share/ament_index
+[10.725s] creating /home/robotica/Proyecto_Final/install/manipulador/share/ament_index/resource_index
+[10.734s] creating /home/robotica/Proyecto_Final/install/manipulador/share/ament_index/resource_index/packages
+[10.745s] copying resource/manipulador -> /home/robotica/Proyecto_Final/install/manipulador/share/ament_index/resource_index/packages
+[10.746s] copying package.xml -> /home/robotica/Proyecto_Final/install/manipulador/share/manipulador
+[10.750s] running install_egg_info
+[10.751s] Copying ../../build/manipulador/manipulador.egg-info to /home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages/manipulador-0.0.0-py3.10.egg-info
+[10.762s] running install_scripts
+[11.068s] Installing manipulador_server script to /home/robotica/Proyecto_Final/install/manipulador/lib/manipulador
+[11.081s] writing list of installed files to '/home/robotica/Proyecto_Final/build/manipulador/install.log'
+[11.813s] Invoked command in '/home/robotica/Proyecto_Final/src/manipulador' returned '0': PYTHONPATH=/home/robotica/Proyecto_Final/build/manipulador/prefix_override:/home/robotica/Proyecto_Final/install/manipulador/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulador build --build-base /home/robotica/Proyecto_Final/build/manipulador/build install --record /home/robotica/Proyecto_Final/build/manipulador/install.log --single-version-externally-managed

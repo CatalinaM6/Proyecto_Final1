@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/percepcion/percepcion.egg-info/PKG-INFO
+../../build/percepcion/percepcion.egg-info/SOURCES.txt
+../../build/percepcion/percepcion.egg-info/dependency_links.txt
+../../build/percepcion/percepcion.egg-info/entry_points.txt
+../../build/percepcion/percepcion.egg-info/requires.txt
+../../build/percepcion/percepcion.egg-info/top_level.txt
+../../build/percepcion/percepcion.egg-info/zip-safe
+percepcion/__init__.py
+resource/percepcion
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,36 @@
+[7.538s] Invoking command in '/home/robotica/Proyecto_Final1/src/navegacion': PYTHONPATH=/home/robotica/Proyecto_Final1/build/navegacion/prefix_override:/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navegacion build --build-base /home/robotica/Proyecto_Final1/build/navegacion/build install --record /home/robotica/Proyecto_Final1/build/navegacion/install.log --single-version-externally-managed
+[9.646s] running egg_info
+[9.652s] writing ../../build/navegacion/navegacion.egg-info/PKG-INFO
+[9.656s] writing dependency_links to ../../build/navegacion/navegacion.egg-info/dependency_links.txt
+[9.663s] writing entry points to ../../build/navegacion/navegacion.egg-info/entry_points.txt
+[9.667s] writing requirements to ../../build/navegacion/navegacion.egg-info/requires.txt
+[9.670s] writing top-level names to ../../build/navegacion/navegacion.egg-info/top_level.txt
+[9.702s] reading manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+[9.713s] writing manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+[9.715s] running build
+[9.717s] running build_py
+[9.719s] copying navegacion/__init__.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion
+[9.722s] copying navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion
+[9.727s] running install
+[9.739s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.740s]   warnings.warn(
+[9.742s] running install_lib
+[9.761s] copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/__init__.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion
+[9.761s] copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion
+[9.766s] byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/__init__.py to __init__.cpython-310.pyc
+[9.767s] byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py to navegacion_server.cpython-310.pyc
+[9.778s]   File "/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py", line 22
+[9.783s]     global pos_ini
+[9.784s]     ^^^^^^^^^^^^^^
+[9.785s] SyntaxError: name 'pos_ini' is assigned to before global declaration
+[9.785s] 
+[9.786s] running install_data
+[9.786s] copying resource/navegacion -> /home/robotica/Proyecto_Final1/install/navegacion/share/ament_index/resource_index/packages
+[9.787s] copying package.xml -> /home/robotica/Proyecto_Final1/install/navegacion/share/navegacion
+[9.788s] running install_egg_info
+[9.808s] removing '/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info' (and everything under it)
+[9.817s] Copying ../../build/navegacion/navegacion.egg-info to /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info
+[9.859s] running install_scripts
+[10.172s] Installing navegacion_server script to /home/robotica/Proyecto_Final1/install/navegacion/lib/navegacion
+[10.185s] writing list of installed files to '/home/robotica/Proyecto_Final1/build/navegacion/install.log'
+[10.541s] Invoked command in '/home/robotica/Proyecto_Final1/src/navegacion' returned '0': PYTHONPATH=/home/robotica/Proyecto_Final1/build/navegacion/prefix_override:/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navegacion build --build-base /home/robotica/Proyecto_Final1/build/navegacion/build install --record /home/robotica/Proyecto_Final1/build/navegacion/install.log --single-version-externally-managed

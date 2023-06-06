@@ -1,0 +1,9 @@
+{
+  "package_name": "proyecto_interfaces",
+  "non_idl_tuples": [
+    "/home/robotica/Proyecto_Final/src/proyecto_interfaces:msg/Banner.msg",
+    "/home/robotica/Proyecto_Final/src/proyecto_interfaces:srv/StartNavigationTest.srv",
+    "/home/robotica/Proyecto_Final/src/proyecto_interfaces:srv/StartPerceptionTest.srv",
+    "/home/robotica/Proyecto_Final/src/proyecto_interfaces:srv/StartManipulationTest.srv"
+  ]
+}

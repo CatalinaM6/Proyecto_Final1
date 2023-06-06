@@ -1,0 +1,36 @@
+[7.455s] Invoking command in '/home/robotica/Proyecto_Final/src/navegacion': PYTHONPATH=/home/robotica/Proyecto_Final/build/navegacion/prefix_override:/home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navegacion build --build-base /home/robotica/Proyecto_Final/build/navegacion/build install --record /home/robotica/Proyecto_Final/build/navegacion/install.log --single-version-externally-managed
+[10.831s] running egg_info
+[10.837s] creating ../../build/navegacion/navegacion.egg-info
+[10.854s] writing ../../build/navegacion/navegacion.egg-info/PKG-INFO
+[10.855s] writing dependency_links to ../../build/navegacion/navegacion.egg-info/dependency_links.txt
+[10.857s] writing entry points to ../../build/navegacion/navegacion.egg-info/entry_points.txt
+[10.858s] writing requirements to ../../build/navegacion/navegacion.egg-info/requires.txt
+[10.865s] writing top-level names to ../../build/navegacion/navegacion.egg-info/top_level.txt
+[10.866s] writing manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+[10.905s] reading manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+[10.937s] writing manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+[10.939s] running build
+[10.945s] running build_py
+[10.945s] creating /home/robotica/Proyecto_Final/build/navegacion/build
+[10.946s] creating /home/robotica/Proyecto_Final/build/navegacion/build/lib
+[10.946s] creating /home/robotica/Proyecto_Final/build/navegacion/build/lib/navegacion
+[10.947s] copying navegacion/__init__.py -> /home/robotica/Proyecto_Final/build/navegacion/build/lib/navegacion
+[10.947s] running install
+[10.963s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.980s]   warnings.warn(
+[10.981s] running install_lib
+[10.982s] creating /home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages/navegacion
+[10.982s] copying /home/robotica/Proyecto_Final/build/navegacion/build/lib/navegacion/__init__.py -> /home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages/navegacion
+[10.983s] byte-compiling /home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages/navegacion/__init__.py to __init__.cpython-310.pyc
+[10.986s] running install_data
+[10.997s] creating /home/robotica/Proyecto_Final/install/navegacion/share/ament_index
+[10.997s] creating /home/robotica/Proyecto_Final/install/navegacion/share/ament_index/resource_index
+[11.005s] creating /home/robotica/Proyecto_Final/install/navegacion/share/ament_index/resource_index/packages
+[11.012s] copying resource/navegacion -> /home/robotica/Proyecto_Final/install/navegacion/share/ament_index/resource_index/packages
+[11.013s] copying package.xml -> /home/robotica/Proyecto_Final/install/navegacion/share/navegacion
+[11.013s] running install_egg_info
+[11.033s] Copying ../../build/navegacion/navegacion.egg-info to /home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info
+[11.052s] running install_scripts
+[11.300s] Installing navegacion_server script to /home/robotica/Proyecto_Final/install/navegacion/lib/navegacion
+[11.312s] writing list of installed files to '/home/robotica/Proyecto_Final/build/navegacion/install.log'
+[11.649s] Invoked command in '/home/robotica/Proyecto_Final/src/navegacion' returned '0': PYTHONPATH=/home/robotica/Proyecto_Final/build/navegacion/prefix_override:/home/robotica/Proyecto_Final/install/navegacion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navegacion build --build-base /home/robotica/Proyecto_Final/build/navegacion/build install --record /home/robotica/Proyecto_Final/build/navegacion/install.log --single-version-externally-managed

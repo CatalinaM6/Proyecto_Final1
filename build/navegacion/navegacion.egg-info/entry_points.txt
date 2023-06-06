@@ -1,0 +1,3 @@
+[console_scripts]
+navegacion_server = navegacion.navegacion_server:main
+

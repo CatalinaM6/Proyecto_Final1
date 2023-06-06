@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/navegacion/navegacion.egg-info/PKG-INFO
+writing dependency_links to ../../build/navegacion/navegacion.egg-info/dependency_links.txt
+writing entry points to ../../build/navegacion/navegacion.egg-info/entry_points.txt
+writing requirements to ../../build/navegacion/navegacion.egg-info/requires.txt
+writing top-level names to ../../build/navegacion/navegacion.egg-info/top_level.txt
+reading manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+writing manifest file '../../build/navegacion/navegacion.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navegacion/__init__.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion
+copying navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion
+running install
+running install_lib
+copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/__init__.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion
+copying /home/robotica/Proyecto_Final1/build/navegacion/build/lib/navegacion/navegacion_server.py -> /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion
+byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py to navegacion_server.cpython-310.pyc
+running install_data
+copying resource/navegacion -> /home/robotica/Proyecto_Final1/install/navegacion/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica/Proyecto_Final1/install/navegacion/share/navegacion
+running install_egg_info
+removing '/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/navegacion/navegacion.egg-info to /home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navegacion_server script to /home/robotica/Proyecto_Final1/install/navegacion/lib/navegacion
+writing list of installed files to '/home/robotica/Proyecto_Final1/build/navegacion/install.log'

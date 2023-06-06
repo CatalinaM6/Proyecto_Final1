@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/percepcion/percepcion.egg-info/PKG-INFO
+writing dependency_links to ../../build/percepcion/percepcion.egg-info/dependency_links.txt
+writing entry points to ../../build/percepcion/percepcion.egg-info/entry_points.txt
+writing requirements to ../../build/percepcion/percepcion.egg-info/requires.txt
+writing top-level names to ../../build/percepcion/percepcion.egg-info/top_level.txt
+reading manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'
+writing manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'
+running build
+running build_py
+copying percepcion/__init__.py -> /home/robotica/Proyecto_Final1/build/percepcion/build/lib/percepcion
+running install
+running install_lib
+copying /home/robotica/Proyecto_Final1/build/percepcion/build/lib/percepcion/__init__.py -> /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion
+byte-compiling /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/percepcion -> /home/robotica/Proyecto_Final1/install/percepcion/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica/Proyecto_Final1/install/percepcion/share/percepcion
+running install_egg_info
+removing '/home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/percepcion/percepcion.egg-info to /home/robotica/Proyecto_Final1/install/percepcion/lib/python3.10/site-packages/percepcion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing percepcion_server script to /home/robotica/Proyecto_Final1/install/percepcion/lib/percepcion
+writing list of installed files to '/home/robotica/Proyecto_Final1/build/percepcion/install.log'

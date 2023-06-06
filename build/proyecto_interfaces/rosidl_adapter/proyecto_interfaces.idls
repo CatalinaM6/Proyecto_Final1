@@ -1,0 +1,4 @@
+/home/robotica/Proyecto_Final/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:msg/Banner.idl
+/home/robotica/Proyecto_Final/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartNavigationTest.idl
+/home/robotica/Proyecto_Final/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartPerceptionTest.idl
+/home/robotica/Proyecto_Final/build/proyecto_interfaces/rosidl_adapter/proyecto_interfaces:srv/StartManipulationTest.idl

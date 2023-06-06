@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/robotica/Proyecto_Final1/install/navegacion/lib/python3.10/site-packages/navegacion/navegacion_server.py", line 22
+    global pos_ini
+    ^^^^^^^^^^^^^^
+SyntaxError: name 'pos_ini' is assigned to before global declaration
+

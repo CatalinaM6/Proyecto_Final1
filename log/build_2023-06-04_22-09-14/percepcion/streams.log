@@ -1,0 +1,36 @@
+[7.274s] Invoking command in '/home/robotica/Proyecto_Final/src/percepcion': PYTHONPATH=/home/robotica/Proyecto_Final/build/percepcion/prefix_override:/home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/percepcion build --build-base /home/robotica/Proyecto_Final/build/percepcion/build install --record /home/robotica/Proyecto_Final/build/percepcion/install.log --single-version-externally-managed
+[10.327s] running egg_info
+[10.335s] creating ../../build/percepcion/percepcion.egg-info
+[10.340s] writing ../../build/percepcion/percepcion.egg-info/PKG-INFO
+[10.345s] writing dependency_links to ../../build/percepcion/percepcion.egg-info/dependency_links.txt
+[10.350s] writing entry points to ../../build/percepcion/percepcion.egg-info/entry_points.txt
+[10.355s] writing requirements to ../../build/percepcion/percepcion.egg-info/requires.txt
+[10.359s] writing top-level names to ../../build/percepcion/percepcion.egg-info/top_level.txt
+[10.364s] writing manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'
+[10.377s] reading manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'
+[10.385s] writing manifest file '../../build/percepcion/percepcion.egg-info/SOURCES.txt'
+[10.389s] running build
+[10.392s] running build_py
+[10.396s] creating /home/robotica/Proyecto_Final/build/percepcion/build
+[10.400s] creating /home/robotica/Proyecto_Final/build/percepcion/build/lib
+[10.403s] creating /home/robotica/Proyecto_Final/build/percepcion/build/lib/percepcion
+[10.407s] copying percepcion/__init__.py -> /home/robotica/Proyecto_Final/build/percepcion/build/lib/percepcion
+[10.412s] running install
+[10.423s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.425s]   warnings.warn(
+[10.426s] running install_lib
+[10.430s] creating /home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages/percepcion
+[10.431s] copying /home/robotica/Proyecto_Final/build/percepcion/build/lib/percepcion/__init__.py -> /home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages/percepcion
+[10.435s] byte-compiling /home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages/percepcion/__init__.py to __init__.cpython-310.pyc
+[10.454s] running install_data
+[10.467s] creating /home/robotica/Proyecto_Final/install/percepcion/share/ament_index
+[10.468s] creating /home/robotica/Proyecto_Final/install/percepcion/share/ament_index/resource_index
+[10.469s] creating /home/robotica/Proyecto_Final/install/percepcion/share/ament_index/resource_index/packages
+[10.474s] copying resource/percepcion -> /home/robotica/Proyecto_Final/install/percepcion/share/ament_index/resource_index/packages
+[10.475s] copying package.xml -> /home/robotica/Proyecto_Final/install/percepcion/share/percepcion
+[10.480s] running install_egg_info
+[10.490s] Copying ../../build/percepcion/percepcion.egg-info to /home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages/percepcion-0.0.0-py3.10.egg-info
+[10.520s] running install_scripts
+[10.828s] Installing percepcion_server script to /home/robotica/Proyecto_Final/install/percepcion/lib/percepcion
+[10.829s] writing list of installed files to '/home/robotica/Proyecto_Final/build/percepcion/install.log'
+[11.297s] Invoked command in '/home/robotica/Proyecto_Final/src/percepcion' returned '0': PYTHONPATH=/home/robotica/Proyecto_Final/build/percepcion/prefix_override:/home/robotica/Proyecto_Final/install/percepcion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/percepcion build --build-base /home/robotica/Proyecto_Final/build/percepcion/build install --record /home/robotica/Proyecto_Final/build/percepcion/install.log --single-version-externally-managed

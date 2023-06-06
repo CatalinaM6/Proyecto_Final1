@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/manipulador/manipulador.egg-info/PKG-INFO
+writing dependency_links to ../../build/manipulador/manipulador.egg-info/dependency_links.txt
+writing entry points to ../../build/manipulador/manipulador.egg-info/entry_points.txt
+writing requirements to ../../build/manipulador/manipulador.egg-info/requires.txt
+writing top-level names to ../../build/manipulador/manipulador.egg-info/top_level.txt
+reading manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'
+writing manifest file '../../build/manipulador/manipulador.egg-info/SOURCES.txt'
+running build
+running build_py
+copying manipulador/manipulador_server.py -> /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador
+copying manipulador/__init__.py -> /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador
+running install
+running install_lib
+copying /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador/manipulador_server.py -> /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador
+copying /home/robotica/Proyecto_Final1/build/manipulador/build/lib/manipulador/__init__.py -> /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador
+byte-compiling /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador/manipulador_server.py to manipulador_server.cpython-310.pyc
+byte-compiling /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/manipulador -> /home/robotica/Proyecto_Final1/install/manipulador/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotica/Proyecto_Final1/install/manipulador/share/manipulador
+running install_egg_info
+removing '/home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/manipulador/manipulador.egg-info to /home/robotica/Proyecto_Final1/install/manipulador/lib/python3.10/site-packages/manipulador-0.0.0-py3.10.egg-info
+running install_scripts
+Installing manipulador_server script to /home/robotica/Proyecto_Final1/install/manipulador/lib/manipulador
+writing list of installed files to '/home/robotica/Proyecto_Final1/build/manipulador/install.log'
